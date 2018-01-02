@@ -1,0 +1,1 @@
+include ':picker', ':photopickerdemo', ':picasso', ':glide', ':fresco'

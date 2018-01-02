@@ -1,0 +1,633 @@
+--------- beginning of main
+03-25 19:01:51.092  1035  1810 W IdleConnectionHandler: Removing a connection that never existed!
+03-25 19:01:51.630 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:01:52.333  1881  2025 I DpmTcmClient: RegisterTcmMonitor from: com.android.okhttp.TcmIdleTimerMonitor
+03-25 19:01:52.344  4611  4767 I XiaomiFirewall: firewall pkgName:com.miui.personalassistant, result:0x0
+03-25 19:01:52.350  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :0signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 20 -100 -8 108 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:01:52.545  1866  1866 I Timeline: Timeline: Activity_launch_request time:189541704
+--------- beginning of system
+03-25 19:01:52.570  1296  3398 I ActivityManager: START u0 {cmp=me.iwf.PhotoPickerDemo/me.iwf.photopicker.PhotoPickerActivity (has extras)} from uid 10455 on display 0
+03-25 19:01:52.574  4071  4381 D WtProcessController: onAMCreateActivity callback
+03-25 19:01:52.575  5065  5070 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+03-25 19:01:52.577  5065  5070 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-25 19:01:52.577  4071  4381 D WtProcessController: onAMPauseActivity callback
+03-25 19:01:52.585  4071  4381 D WtProcessController: onAMRestartActivity callback
+03-25 19:01:52.586  1296  4145 I Timeline: Timeline: App_transition_ready time:189541744
+03-25 19:01:52.636  1866  1866 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@a816415
+03-25 19:01:52.636  1866  1866 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@2d4332a
+03-25 19:01:52.641  1866  1866 I ListPopupWindow: Could not find method setEpicenterBounds(Rect) on PopupWindow. Oh well.
+03-25 19:01:52.647  3398  3398 W Binder_4: type=1400 audit(0.0:1514059): avc: denied { ioctl } for path="socket:[22892451]" dev="sockfs" ino=22892451 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+03-25 19:01:52.647  3398  3398 W Binder_4: type=1400 audit(0.0:1514060): avc: denied { ioctl } for path="socket:[22892451]" dev="sockfs" ino=22892451 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+03-25 19:01:52.655  1866  1866 D ActivityThreadInjector: clearCachedDrawables.
+03-25 19:01:52.660  1296  4147 I Timeline: Timeline: App_transition_ready time:189541819
+03-25 19:01:52.662  1296  4147 I Timeline: Timeline: App_transition_ready time:189541820
+03-25 19:01:52.686  1296  1548 I Timeline: Timeline: App_transition_ready time:189541844
+03-25 19:01:52.687  1296  1548 I ActivityManager: Displayed me.iwf.PhotoPickerDemo/me.iwf.photopicker.PhotoPickerActivity: +104ms
+03-25 19:01:52.677  3398  3398 W Binder_4: type=1400 audit(0.0:1514061): avc: denied { ioctl } for path="socket:[22892435]" dev="sockfs" ino=22892435 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+03-25 19:01:52.688  3324  3324 V PhoneStatusBarPolicy: updateManagedProfile mManagedProfileFocused: false mKeyguardVisible: false mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+03-25 19:01:52.677  3398  3398 W Binder_4: type=1400 audit(0.0:1514062): avc: denied { ioctl } for path="socket:[22892435]" dev="sockfs" ino=22892435 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+03-25 19:01:52.830  1866  1914 D OpenGLRenderer: endAllStagingAnimators on 0x55b1364710 (RippleDrawable) with handle 0x55b13c9f90
+03-25 19:01:52.963  1296  1548 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{40cc564 u0 me.iwf.PhotoPickerDemo/me.iwf.photopicker.PhotoPickerActivity t25020} time:189542122
+03-25 19:01:52.998  1296  1548 I Timeline: Timeline: App_transition_stopped time:189542157
+03-25 19:01:54.034  1296  1296 V NotificationService: notifications are disabled by AppOps for com.codoon.gps
+03-25 19:01:54.034  1296  1296 E NotificationService: Suppressing notification from package com.codoon.gps by user request.
+03-25 19:01:54.037  1296  1296 V NotificationService: notifications are disabled by AppOps for com.codoon.gps
+03-25 19:01:54.038  1296  1296 E NotificationService: Suppressing notification from package com.codoon.gps by user request.
+03-25 19:01:54.284  1009  1009 I MSM-irqbalance: Decided to move IRQ215 from CPU0 to CPU2
+03-25 19:01:54.478  1866  1866 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@4784e2a
+03-25 19:01:54.513  1866  1866 D AndroidRuntime: Shutting down VM
+--------- beginning of crash
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: FATAL EXCEPTION: main
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: Process: me.iwf.PhotoPickerDemo, PID: 1866
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: java.lang.IllegalStateException: You must initialize BigImageViewer before use it!
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at com.github.piasy.biv.BigImageViewer.imageLoader(BigImageViewer.java:52)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at com.github.piasy.biv.view.BigImageView.<init>(BigImageView.java:121)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at com.github.piasy.biv.view.BigImageView.<init>(BigImageView.java:98)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at com.github.piasy.biv.view.BigImageView.<init>(BigImageView.java:94)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at com.hss01248.image.bigimage.PagerAdapterForBigImage.instantiateItem(PagerAdapterForBigImage.java:53)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.support.v4.view.ViewPager.addNewItem(ViewPager.java:1034)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.support.v4.view.ViewPager.populate(ViewPager.java:1182)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.support.v4.view.ViewPager.populate(ViewPager.java:1116)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.support.v4.view.ViewPager.onMeasure(ViewPager.java:1642)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.View.measure(View.java:18811)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:5952)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1465)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.widget.LinearLayout.measureVertical(LinearLayout.java:748)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.widget.LinearLayout.onMeasure(LinearLayout.java:630)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.View.measure(View.java:18811)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:5952)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.View.measure(View.java:18811)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:5952)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1465)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.widget.LinearLayout.measureVertical(LinearLayout.java:748)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.widget.LinearLayout.onMeasure(LinearLayout.java:630)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.View.measure(View.java:18811)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:5952)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.support.v7.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:139)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.View.measure(View.java:18811)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:5952)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1465)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.widget.LinearLayout.measureVertical(LinearLayout.java:748)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.widget.LinearLayout.onMeasure(LinearLayout.java:630)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.View.measure(View.java:18811)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:5952)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.View.measure(View.java:18811)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:5952)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1465)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.widget.LinearLayout.measureVertical(LinearLayout.java:748)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.widget.LinearLayout.onMeasure(LinearLayout.java:630)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.View.measure(View.java:18811)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:5952)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at com.android.internal.policy.PhoneWindow$DecorView.onMeasure(PhoneWindow.java:2643)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.View.measure(View.java:18811)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:2127)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:1243)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1479)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1134)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6050)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:860)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.Choreographer.doCallbacks(Choreographer.java:672)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.Choreographer.doFrame(Choreographer.java:608)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:846)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:739)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:148)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5442)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-25 19:01:54.529  1866  1866 E AndroidRuntime: 	at com.android.internal.os.Zygo
+03-25 19:01:54.532  1296  3398 W ActivityManager:   Force finishing activity me.iwf.PhotoPickerDemo/me.iwf.photopicker.PhotoPickerActivity
+03-25 19:01:54.534  4071  4381 I WtEventController: Receive am_crash event for pid: 1866
+03-25 19:01:54.534  4946  5037 I octvm_klo: klo lock
+03-25 19:01:54.539  4071  4381 D WtProcessController: onAMPauseActivity callback
+03-25 19:01:54.541  1866  1866 I Process : Sending signal. PID: 1866 SIG: 9
+03-25 19:01:54.544  4946  5037 I octvm_klo: get wanted event[mask:128, name:data_app_crash@1490439714540.txt.gz] from the watchset
+03-25 19:01:54.544  4946  5037 I octvm_klo: start gathering logcat log...
+03-25 19:01:54.567  4946  5037 I octvm_klo: gathering logcat log done
+03-25 19:01:54.567  4946  5037 I octvm_klo: klo unlock
+03-25 19:01:54.587  1296  3342 I DpmTcmClient: RegisterTcmMonitor from: org.apache.http.impl.conn.TcmIdleTimerMonitor
+03-25 19:01:54.591  4611  4767 I XiaomiFirewall: firewall pkgName:android, result:0x0
+03-25 19:01:54.650 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:01:54.696  1296  2893 W InputDispatcher: channel '27105b8 me.iwf.PhotoPickerDemo/me.iwf.PhotoPickerDemo.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+03-25 19:01:54.696  1296  2893 E InputDispatcher: channel '27105b8 me.iwf.PhotoPickerDemo/me.iwf.PhotoPickerDemo.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+03-25 19:01:54.697  1296  3342 W ErrorReport: Fail to sendHttpRequest
+03-25 19:01:54.697  1296  3342 W ErrorReport: java.lang.IllegalArgumentException: HTTP entity may not be null
+03-25 19:01:54.697  1296  3342 W ErrorReport: 	at org.apache.http.util.EntityUtils.toString(EntityUtils.java:115)
+03-25 19:01:54.697  1296  3342 W ErrorReport: 	at org.apache.http.util.EntityUtils.toString(EntityUtils.java:151)
+03-25 19:01:54.697  1296  3342 W ErrorReport: 	at miui.util.ErrorReport.c(SourceFile:396)
+03-25 19:01:54.697  1296  3342 W ErrorReport: 	at miui.util.ErrorReport.sendReportRequest(SourceFile:353)
+03-25 19:01:54.697  1296  3342 W ErrorReport: 	at miui.util.ErrorReport$1.a(SourceFile:369)
+03-25 19:01:54.697  1296  3342 W ErrorReport: 	at miui.util.ErrorReport$1.doInBackground(SourceFile:366)
+03-25 19:01:54.697  1296  3342 W ErrorReport: 	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+03-25 19:01:54.697  1296  3342 W ErrorReport: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+03-25 19:01:54.697  1296  3342 W ErrorReport: 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+03-25 19:01:54.697  1296  3342 W ErrorReport: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+03-25 19:01:54.697  1296  3342 W ErrorReport: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+03-25 19:01:54.697  1296  3342 W ErrorReport: 	at java.lang.Thread.run(Thread.java:818)
+03-25 19:01:54.699  1296  3638 D GraphicsStats: Buffer count: 12
+03-25 19:01:54.699  1296  4136 I ActivityManager: Process me.iwf.PhotoPickerDemo (pid 1866) has died
+03-25 19:01:54.699  1296  3342 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1295 android.content.ContextWrapper.bindService:614 miui.os.DropBoxManager.cu:361 miui.os.DropBoxManager.a:350 miui.os.DropBoxManager.addText:314 
+03-25 19:01:54.699  1296  4136 D ActivityManager: cleanUpApplicationRecord -- 1866
+03-25 19:01:54.700  1296  2893 W InputDispatcher: channel '982d3d0 me.iwf.PhotoPickerDemo/me.iwf.photopicker.PhotoPickerActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+03-25 19:01:54.700  1296  2893 E InputDispatcher: channel '982d3d0 me.iwf.PhotoPickerDemo/me.iwf.photopicker.PhotoPickerActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+03-25 19:01:54.701  1296  3219 I WindowState: WIN DEATH: Window{27105b8 u0 me.iwf.PhotoPickerDemo/me.iwf.PhotoPickerDemo.MainActivity}
+03-25 19:01:54.701  1296  3219 W InputDispatcher: Attempted to unregister already unregistered input channel '27105b8 me.iwf.PhotoPickerDemo/me.iwf.PhotoPickerDemo.MainActivity (server)'
+03-25 19:01:54.705  1296  1307 I WindowState: WIN DEATH: Window{982d3d0 u0 me.iwf.PhotoPickerDemo/me.iwf.photopicker.PhotoPickerActivity}
+03-25 19:01:54.705  1296  1307 W InputDispatcher: Attempted to unregister already unregistered input channel '982d3d0 me.iwf.PhotoPickerDemo/me.iwf.photopicker.PhotoPickerActivity (server)'
+03-25 19:01:54.751  1296  4136 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@2192d39
+03-25 19:01:54.752  1296  4136 I ActivityManager: Start proc 2082:me.iwf.PhotoPickerDemo/u0a455 for activity me.iwf.PhotoPickerDemo/.MainActivity
+03-25 19:01:54.752  2082  2082 I art     : Late-enabling -Xcheck:jni
+03-25 19:01:54.752  4071  4381 D WtProcessController: onAMProcStart callback
+03-25 19:01:54.771  3220 19094 W MessageQueue: Handler (com.miui.internal.server.DropBoxManagerService$2) {919b102} sending message to a Handler on a dead thread
+03-25 19:01:54.771  3220 19094 W MessageQueue: java.lang.IllegalStateException: Handler (com.miui.internal.server.DropBoxManagerService$2) {919b102} sending message to a Handler on a dead thread
+03-25 19:01:54.771  3220 19094 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:543)
+03-25 19:01:54.771  3220 19094 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:631)
+03-25 19:01:54.771  3220 19094 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:600)
+03-25 19:01:54.771  3220 19094 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:570)
+03-25 19:01:54.771  3220 19094 W MessageQueue: 	at android.os.Handler.sendMessage(Handler.java:507)
+03-25 19:01:54.771  3220 19094 W MessageQueue: 	at com.miui.internal.server.DropBoxManagerService.add(SourceFile:226)
+03-25 19:01:54.771  3220 19094 W MessageQueue: 	at com.miui.internal.server.IDropBoxManagerService$Stub.onTransact(SourceFile:62)
+03-25 19:01:54.771  3220 19094 W MessageQueue: 	at android.os.Binder.execTransact(Binder.java:453)
+03-25 19:01:54.789  2082  2082 D TidaProvider: TidaProvider()
+03-25 19:01:54.804  4071  4381 D WtProcessController: onAMRestartActivity callback
+03-25 19:01:54.805  1296  3398 I Timeline: Timeline: App_transition_ready time:189543964
+03-25 19:01:54.820  1296  1548 I Timeline: Timeline: App_transition_ready time:189543979
+03-25 19:01:54.848  1296  1548 I Timeline: Timeline: App_transition_ready time:189544006
+03-25 19:01:54.852  3324  3324 V PhoneStatusBarPolicy: updateManagedProfile mManagedProfileFocused: false mKeyguardVisible: false mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+03-25 19:01:54.864  2082  2082 W art     : Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+03-25 19:01:54.909  2082  2082 V BoostFramework: mAcquireFunc method = public int com.qualcomm.qti.Performance.perfLockAcquire(int,int[])
+03-25 19:01:54.909  2082  2082 V BoostFramework: mReleaseFunc method = public int com.qualcomm.qti.Performance.perfLockRelease()
+03-25 19:01:54.909  2082  2082 V BoostFramework: mAcquireTouchFunc method = public int com.qualcomm.qti.Performance.perfLockAcquireTouch(android.view.MotionEvent,android.util.DisplayMetrics,int,int[])
+03-25 19:01:54.909  2082  2082 V BoostFramework: mIOPStart method = public int com.qualcomm.qti.Performance.perfIOPrefetchStart(int,java.lang.String)
+03-25 19:01:54.909  2082  2082 V BoostFramework: mIOPStop method = public int com.qualcomm.qti.Performance.perfIOPrefetchStop()
+03-25 19:01:54.912  2082  2082 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@17f933
+03-25 19:01:54.912  2082  2082 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@894d4f0
+03-25 19:01:54.939  2082  2082 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@fd19523
+03-25 19:01:54.939  2082  2082 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@3bf5a20
+03-25 19:01:54.948  2082  2082 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@3c0e657
+03-25 19:01:54.948  2082  2082 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@d9ac544
+03-25 19:01:54.952  2082  2082 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@998e62d
+03-25 19:01:54.953  2082  2082 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@9e762
+03-25 19:01:54.961  2082  2082 D AndroidRuntime: Shutting down VM
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: FATAL EXCEPTION: main
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: Process: me.iwf.PhotoPickerDemo, PID: 2082
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{me.iwf.PhotoPickerDemo/me.iwf.PhotoPickerDemo.MainActivity}: java.lang.IllegalArgumentException: Wrong state class, expecting View State but received class android.support.v7.widget.RecyclerView$SavedState instead. This usually happens when two views of different type have the same id in the same hierarchy. This view's id is id/recycler_view. Make sure other views do not use the same id.
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2423)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2483)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.app.ActivityThread.access$900(ActivityThread.java:153)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1349)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:148)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5442)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:738)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:628)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: Caused by: java.lang.IllegalArgumentException: Wrong state class, expecting View State but received class android.support.v7.widget.RecyclerView$SavedState instead. This usually happens when two views of different type have the same id in the same hierarchy. This view's id is id/recycler_view. Make sure other views do not use the same id.
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.view.View.onRestoreInstanceState(View.java:14795)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.view.View.dispatchRestoreInstanceState(View.java:14770)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3122)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3128)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3128)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3128)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3128)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3128)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3128)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.view.View.restoreHierarchyState(View.java:14748)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at com.android.internal.policy.PhoneWindow.restoreHierarchyState(PhoneWindow.java:2035)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.app.Activity.onRestoreInstanceState(Activity.java:1015)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.app.Activity.performRestoreInstanceState(Activity.java:970)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnRestoreInstanceState(Instrumentation.java:1164)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2396)
+03-25 19:01:54.965  2082  2082 E AndroidRuntime: 	... 9 more
+03-25 19:01:54.967  4071  4381 I WtEventController: Receive am_crash event for pid: 2082
+03-25 19:01:54.967  1296  1307 W ActivityManager:   Force finishing activity me.iwf.PhotoPickerDemo/.MainActivity
+03-25 19:01:54.968  4946  5037 I octvm_klo: klo lock
+03-25 19:01:54.974  4946  5037 I octvm_klo: get wanted event[mask:128, name:data_app_crash@1490439714973.txt] from the watchset
+03-25 19:01:54.974  4946  5037 I octvm_klo: start gathering logcat log...
+03-25 19:01:54.974  1296  1307 E ActivityManager: Invalid thumbnail dimensions: 0x0
+03-25 19:01:54.976  2082  2082 I Process : Sending signal. PID: 2082 SIG: 9
+03-25 19:01:54.993  1296 12206 I DpmTcmClient: RegisterTcmMonitor from: org.apache.http.impl.conn.TcmIdleTimerMonitor
+03-25 19:01:54.995  4071  4381 D WtProcessController: onAMPauseActivity callback
+03-25 19:01:54.997  4946  5037 I octvm_klo: gathering logcat log done
+03-25 19:01:54.997  4946  5037 I octvm_klo: klo unlock
+03-25 19:01:55.072  1296 12206 W ErrorReport: Fail to sendHttpRequest
+03-25 19:01:55.072  1296 12206 W ErrorReport: java.lang.IllegalArgumentException: HTTP entity may not be null
+03-25 19:01:55.072  1296 12206 W ErrorReport: 	at org.apache.http.util.EntityUtils.toString(EntityUtils.java:115)
+03-25 19:01:55.072  1296 12206 W ErrorReport: 	at org.apache.http.util.EntityUtils.toString(EntityUtils.java:151)
+03-25 19:01:55.072  1296 12206 W ErrorReport: 	at miui.util.ErrorReport.c(SourceFile:396)
+03-25 19:01:55.072  1296 12206 W ErrorReport: 	at miui.util.ErrorReport.sendReportRequest(SourceFile:353)
+03-25 19:01:55.072  1296 12206 W ErrorReport: 	at miui.util.ErrorReport$1.a(SourceFile:369)
+03-25 19:01:55.072  1296 12206 W ErrorReport: 	at miui.util.ErrorReport$1.doInBackground(SourceFile:366)
+03-25 19:01:55.072  1296 12206 W ErrorReport: 	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+03-25 19:01:55.072  1296 12206 W ErrorReport: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+03-25 19:01:55.072  1296 12206 W ErrorReport: 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+03-25 19:01:55.072  1296 12206 W ErrorReport: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+03-25 19:01:55.072  1296 12206 W ErrorReport: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+03-25 19:01:55.072  1296 12206 W ErrorReport: 	at java.lang.Thread.run(Thread.java:818)
+03-25 19:01:55.073  1296 12206 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1295 android.content.ContextWrapper.bindService:614 miui.os.DropBoxManager.cu:361 miui.os.DropBoxManager.a:350 miui.os.DropBoxManager.addText:314 
+03-25 19:01:55.086  3220  3230 W MessageQueue: Handler (com.miui.internal.server.DropBoxManagerService$2) {919b102} sending message to a Handler on a dead thread
+03-25 19:01:55.086  3220  3230 W MessageQueue: java.lang.IllegalStateException: Handler (com.miui.internal.server.DropBoxManagerService$2) {919b102} sending message to a Handler on a dead thread
+03-25 19:01:55.086  3220  3230 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:543)
+03-25 19:01:55.086  3220  3230 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:631)
+03-25 19:01:55.086  3220  3230 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:600)
+03-25 19:01:55.086  3220  3230 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:570)
+03-25 19:01:55.086  3220  3230 W MessageQueue: 	at android.os.Handler.sendMessage(Handler.java:507)
+03-25 19:01:55.086  3220  3230 W MessageQueue: 	at com.miui.internal.server.DropBoxManagerService.add(SourceFile:226)
+03-25 19:01:55.086  3220  3230 W MessageQueue: 	at com.miui.internal.server.IDropBoxManagerService$Stub.onTransact(SourceFile:62)
+03-25 19:01:55.086  3220  3230 W MessageQueue: 	at android.os.Binder.execTransact(Binder.java:453)
+03-25 19:01:55.103  1296  3401 I ActivityManager: Process me.iwf.PhotoPickerDemo (pid 2082) has died
+03-25 19:01:55.103  1296  3401 D ActivityManager: cleanUpApplicationRecord -- 2082
+03-25 19:01:55.104  5065  5070 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+03-25 19:01:55.105  5065  5070 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-25 19:01:55.108  4071  4381 D WtProcessController: onAMResumeActivity callback
+03-25 19:01:55.108  1296  3401 I Timeline: Timeline: App_transition_ready time:189544267
+03-25 19:01:55.108  4071  4381 D WtProcessController: set foreground process size 1 pid:4172pacakgeName:com.miui.home
+03-25 19:01:55.108  3725 14786 I GameBoosterService: NowApp: me.iwf.PhotoPickerDemo foreground?false
+03-25 19:01:55.108  3725 14786 I GameBoosterService: NowApp: com.miui.home foreground?true
+03-25 19:01:55.117  1296  1548 I Timeline: Timeline: App_transition_ready time:189544276
+03-25 19:01:55.119  1296  1548 I Timeline: Timeline: App_transition_ready time:189544278
+03-25 19:01:55.120  1296  4134 I Timeline: Timeline: App_transition_ready time:189544278
+03-25 19:01:55.122  4172  6214 I RenderThread: RenderThread resumed
+03-25 19:01:55.122  4172  6214 I RenderThread: All controllers paused.
+03-25 19:01:55.122  4172  6214 I RenderThread: RenderThread paused, waiting for signal
+03-25 19:01:55.124  4172  6214 I RenderThread: RenderThread resumed
+03-25 19:01:55.124  4172  6214 I RenderThread: All controllers paused.
+03-25 19:01:55.124  4172  6214 I RenderThread: RenderThread paused, waiting for signal
+03-25 19:01:55.133  1296  1548 W WindowAnimator: Failed to dispatch window animation state change.
+03-25 19:01:55.133  1296  1548 W WindowAnimator: android.os.DeadObjectException
+03-25 19:01:55.133  1296  1548 W WindowAnimator: 	at android.os.BinderProxy.transactNative(Native Method)
+03-25 19:01:55.133  1296  1548 W WindowAnimator: 	at android.os.BinderProxy.transact(Binder.java:503)
+03-25 19:01:55.133  1296  1548 W WindowAnimator: 	at android.view.IWindow$Stub$Proxy.onAnimationStopped(IWindow.java:534)
+03-25 19:01:55.133  1296  1548 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.updateWindowsLocked(WindowAnimator.java:289)
+03-25 19:01:55.133  1296  1548 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.animateLocked(WindowAnimator.java:681)
+03-25 19:01:55.133  1296  1548 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.access$000(WindowAnimator.java:53)
+03-25 19:01:55.133  1296  1548 W WindowAnimator: 	at com.android.server.wm.WindowAnimator$1.doFrame(WindowAnimator.java:123)
+03-25 19:01:55.133  1296  1548 W WindowAnimator: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:858)
+03-25 19:01:55.133  1296  1548 W WindowAnimator: 	at android.view.Choreographer.doCallbacks(Choreographer.java:672)
+03-25 19:01:55.133  1296  1548 W WindowAnimator: 	at android.view.Choreographer.doFrame(Choreographer.java:605)
+03-25 19:01:55.133  1296  1548 W WindowAnimator: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:846)
+03-25 19:01:55.133  1296  1548 W WindowAnimator: 	at android.os.Handler.handleCallback(Handler.java:739)
+03-25 19:01:55.133  1296  1548 W WindowAnimator: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+03-25 19:01:55.133  1296  1548 W WindowAnimator: 	at android.os.Looper.loop(Looper.java:148)
+03-25 19:01:55.133  1296  1548 W WindowAnimator: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+03-25 19:01:55.133  1296  1548 W WindowAnimator: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+03-25 19:01:55.134  1296  1548 I Timeline: Timeline: App_transition_ready time:189544293
+03-25 19:01:55.136  1296  1548 I Timeline: Timeline: App_transition_ready time:189544294
+03-25 19:01:55.138  1296  4145 I Timeline: Timeline: App_transition_ready time:189544297
+03-25 19:01:55.155  1296  4134 W InputMethodManagerService: Got RemoteException sending setActive(false) notification to pid 1866 uid 10455
+03-25 19:01:55.147  4134  4134 W Binder_D: type=1400 audit(0.0:1514063): avc: denied { ioctl } for path="socket:[365113]" dev="sockfs" ino=365113 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+03-25 19:01:55.147  4134  4134 W Binder_D: type=1400 audit(0.0:1514064): avc: denied { ioctl } for path="socket:[365113]" dev="sockfs" ino=365113 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+03-25 19:01:55.197  1296  1548 I Timeline: Timeline: App_transition_ready time:189544356
+03-25 19:01:55.200  3324  3324 V PhoneStatusBarPolicy: updateManagedProfile mManagedProfileFocused: false mKeyguardVisible: false mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+03-25 19:01:55.221  1296  1305 I art     : Background partial concurrent mark sweep GC freed 94350(6MB) AllocSpace objects, 34(2MB) LOS objects, 21% free, 57MB/73MB, paused 1.734ms total 225.338ms
+03-25 19:01:55.334  1296  1548 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{6418336 u0 com.miui.home/.launcher.Launcher t24550} time:189544492
+03-25 19:01:55.334  1296  1548 I Timeline: Timeline: App_transition_stopped time:189544493
+03-25 19:01:55.629  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :1signalStrength=SignalStrength: 16 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:01:55.636  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :0signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 19 -100 -8 118 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:01:57.656 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:01:58.111  4071  4071 D WtProcessStrategy: do trim { PackageName :com.tencent.mobileqq Pid: 12575 Uid: 10110 Start by: broadcast Score:50 Old score:50 state:0 mBackgroundTimeInMillis:1490428559605 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 1 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.tencent.mobileqq uid:10110 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:4288,0x10c0 [,TRIMHEAPS,ZRAM,FLAG_DEAL_SCHEDULE] Type:64[,AUTO_START] } tasknum:24552}
+03-25 19:01:58.111  4071  4071 D WtProcessStrategy: do trim { PackageName :com.tencent.mobileqq Pid: 4529 Uid: 10110 Start by: unknown Score:50 Old score:50 state:0 mBackgroundTimeInMillis:1490428559605 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 0 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.tencent.mobileqq uid:10110 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:4288,0x10c0 [,TRIMHEAPS,ZRAM,FLAG_DEAL_SCHEDULE] Type:64[,AUTO_START] } tasknum:-1}
+03-25 19:01:58.112  4071  4071 D WtProcessStrategy: do trim { PackageName :com.miui.securitycenter Pid: 3725 Uid: 1000 Start by: unknown Score:40 Old score:40 state:0 mBackgroundTimeInMillis:1490437569825 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 0 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.miui.securitycenter uid:1000 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:-2147479612,0x80000fc4 [,DestoryActivity,TRIMHEAPS,TRIM_OPENGL,SOFT_RESET,APP_SYSTEM,ZRAM,TRIMPROCESS_BY_ACTIVITY] Type:0[] } tasknum:-1}
+03-25 19:01:58.778  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :0signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 19 -100 -8 116 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:01:59.284  1009  1009 I MSM-irqbalance: Decided to move IRQ130 from CPU0 to CPU2
+03-25 19:01:59.707  3978  4210 W Metok_Tag: < metok_app > invalid network operator 
+03-25 19:02:00.461  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :1signalStrength=SignalStrength: 9 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte level=4 cdmdlevel=0 evdolevel=0
+03-25 19:02:00.676 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:02:01.887  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :0signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 20 -100 -8 122 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:02:03.694 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:02:04.284  1009  1009 I MSM-irqbalance: Decided to move IRQ155 from CPU0 to CPU2
+03-25 19:02:05.039  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :0signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 19 -100 -8 118 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:02:05.942  3978  4210 W Metok_Tag: < metok_app > invalid network operator 
+03-25 19:02:06.712 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:02:07.813 32731 32731 E QZLog   : ***exitProcexx*** receive broacast action=com.tencent.process.exit
+03-25 19:02:07.813 32731 32731 E QZLog   : exitProcess call,destroy()
+03-25 19:02:07.815 32731 32731 I QZLog   : QBSvc.onLogout cancel
+03-25 19:02:07.849  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :0signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 20 -100 -8 156 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:02:07.854  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :1signalStrength=SignalStrength: 24 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:02:07.869  1296  1307 I MediaFocusControl:  AudioFocus  abandonAudioFocus() from android.media.AudioManager@fe1fc46vkq@239ee07
+03-25 19:02:07.940  4529  4544 D MSF.S.ReqHandler: handleMsfRequest unRegisterMsfService
+03-25 19:02:07.940  4529  4544 I MSF.S.AppProcessManager: onUnRegisterApp process=com.tencent.mobileqq:qzone stopWakeupProcess=true
+03-25 19:02:07.940  4529  4892 D MSF.C.MonitorNetFlowStore: MonitorWriteDataThread Enter
+03-25 19:02:07.960  4529  4892 D MSF.C.MonitorNetFlowStore: write data lenth : 1697 | read data lenth : 474, has been stored.
+03-25 19:02:07.960  4529  4892 D MSF.C.MonitorNetFlowStore: MonitorWriteDataThread End takeTimes=20
+03-25 19:02:08.090  4071  4381 W WtProcessController: do not trim { PackageName :com.miui.home Pid: 4172 Uid: 10020 Start by: unknown Score:100 Old score:100 state:0 mBackgroundTimeInMillis:0 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 1 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.miui.home uid:10020 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:-2147483264,0x80000180 [,APP_SYSTEM,ZRAM] Type:0[] } tasknum:25020}
+03-25 19:02:08.962 32731 32747 I Process : Sending signal. PID: 32731 SIG: 9
+03-25 19:02:09.044  1296  3177 D WifiService: Client connection lost with reason: 4
+03-25 19:02:09.046  1296  3720 I ActivityManager: Process com.tencent.mobileqq:qzone (pid 32731) has died
+03-25 19:02:09.046  1296  3720 D ActivityManager: cleanUpApplicationRecord -- 32731
+03-25 19:02:09.054  1296  3720 W ActivityManager: Scheduling restart of crashed service com.tencent.mobileqq/cooperation.qzone.remote.logic.QzoneWebPluginProxyService in 1000ms
+03-25 19:02:09.284  1009  1009 I MSM-irqbalance: Decided to move IRQ166 from CPU0 to CPU2
+03-25 19:02:09.718 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:02:10.067  1296  1502 I ActivityManager: Start proc 2143:com.tencent.mobileqq:qzone/u0a110 for service com.tencent.mobileqq/cooperation.qzone.remote.logic.QzoneWebPluginProxyService
+03-25 19:02:10.068  4071  4381 D WtProcessController: onAMProcStart callback
+03-25 19:02:10.151  2143  2143 D TidaProvider: TidaProvider()
+03-25 19:02:10.202  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :0signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 22 -100 -12 36 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:02:10.211  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :1signalStrength=SignalStrength: 25 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:02:10.315  2143  2159 D MSF.D.QLog: QLog init
+03-25 19:02:10.373  2143  2143 E DexLoadOat: Success
+03-25 19:02:10.386  2143  2143 D HotPatchTool: injectPatchDex enable=true, isStartup=true
+03-25 19:02:10.472  2143  2143 D HotPatchTool: injectPatchDex result=Success, total cost time: 98 ms, inject cost time: 19 ms.
+03-25 19:02:10.489  2143  2163 D HotPatchTool: updatePatchConfig curPatchCount=1, curPatchIndex=0, dexPatchCfgArray=[{"process":"com.tencent.mobileqq;com.tencent.mobileqq:qzone;com.tencent.mobileqq:tool;com.tencent.mobileqq:peak;com.tencent.mobileqq:video;com.tencent.mobileqq:service;com.tencent.mobileqq:qqfav;com.tencent.mobileqq:dingdong;com.tencent.mobileqq:openSdk;com.tencent.mobileqq:troopmemcard;com.tencent.mobileqq:troopbar;com.tencent.mobileqq:map;com.tencent.mobileqq:jtcode;com.tencent.mobileqq:remote;com.tencent.mobileqq:picture;com.tencent.mobileqq:qzonelive;com.tencent.mobileqq:imageservice;com.tencent.mobileqq:qzonevideo;com.tencent.mobileqq:qlink;com.tencent.mobileqq:huangye;com.tencent.mobileqq:dataline;com.tencent.mobileqq:TMAssistantDownloadSDKService;com.tencent.mobileqq:cardpay;com.tencent.mobileqq:buscard;com.tencent.mobileqq:pluginbridge;com.tencent.mobileqq:qqwifi;com.tencent.mobileqq:weiyun;com.tencent.mobileqq:smartdevice;com.tencent.mobileqq:secmsg;com.tencent.mobileqq:readinjoy;com.tencent.mobileqq:troophomework;com.tencent.mobileqq:groupvideo;com.tencent.mobileqq:lola","appVersion":"6.7.0.496","revision":"264754","driveVer":"","system":"15;16;17;18;21;22;23;24;25","name":"patch1_6.7.0.496.jar","classIdxList":"1-2877;1-2878;1-2880","classCount":"3","device":"","enable":true,"delay":false,"type":"dex","url":"http:\/\/sqdd.myapp.com\/myapp\/qqteam\/PatchFixCrash\/patch1_6.7.0.496.jar","size":"9926","version":"55"}], installFailCnt=0
+03-25 19:02:10.508  2143  2143 D Rdm     : doStep...process=com.tencent.mobileqq:qzone, sRdmState=0
+03-25 19:02:10.512  2143  2143 D mqq     : a1.getUin() = *1164;key.time = 0, isLogined=true
+03-25 19:02:10.512  2143  2143 D mqq     : a2.getUin() = *6045;key.time = 0, isLogined=true
+03-25 19:02:10.515  2143  2165 E QQAppInterface: laResult: 15, verifyResult: 15
+03-25 19:02:10.516  2143  2165 D mqq     : doInit begin withcom.tencent.mobileqq:qzone
+03-25 19:02:10.545  2143  2165 D MsfServiceSdk: MsfServiceSdk init proxyNew=true processName=com.tencent.mobileqq:qzone
+03-25 19:02:10.546  2143  2165 D mqq     : a1.getUin() = *6045;key.time = 1490143756993, isLogined=true
+03-25 19:02:10.546  2143  2165 D mqq     : a2.getUin() = *1164;key.time = 1489031607618, isLogined=true
+03-25 19:02:10.546  2143  2165 D MobileQQ: createNewRuntime, falsefalse5null
+03-25 19:02:10.548  2143  2168 I MSF.D.NetworkProvider: refresh currentAPN:. received networkInfo: CONNECTED :[type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "helloworld", roaming: false, failover: false, isAvailable: true]. ExtraNetInfo: null
+03-25 19:02:10.550  2143  2168 D MSF.D.NetworkProvider: netchange NONE to WiFi
+03-25 19:02:10.551  4529  4529 D MSF.S.MsfService: serivce onStart
+03-25 19:02:10.551  2143  2167 D MSF.D.ProxyNew: start service finish
+03-25 19:02:10.552  2143  2143 W beacon  : get app channel fail!
+03-25 19:02:10.556  2143  2167 D MSF.D.ProxyNew: bind service finished true
+03-25 19:02:10.557  1296  3177 D WifiService: New client listening to asynchronous messages
+03-25 19:02:10.604  2143  2165 D qz_patch: classloader is dalvik.system.DexClassLoader[DexPathList[[zip file "/data/data/com.tencent.mobileqq/app_installed_plugin/qzone_plugin.apk"],nativeLibraryDirectories=[/data/data/com.tencent.mobileqq/app_lib/qzone_plugin, /vendor/lib, /system/lib]]]
+03-25 19:02:10.691  2143  2143 D StatisticCollector: initCrashReport ... process:com.tencent.mobileqq:qzone pid=2143
+03-25 19:02:10.757  2143  2143 W .mobileqq:qzone: type=1400 audit(0.0:1514065): avc: denied { read } for name="anr" dev="dm-1" ino=671745 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:anr_data_file:s0 tclass=dir permissive=0
+03-25 19:02:10.768  2143  2143 D StatisticCollector: initNativeCrashReport ... process:com.tencent.mobileqq:qzone pid=2143
+03-25 19:02:10.781  2143  2143 I native_eup: Java_com_tencent_feedback_eup_jni_NativeExceptionUpload_registNativeExceptionHandler2 start
+03-25 19:02:10.781  2143  2143 I native_eup: JARJNIVERSION:1
+03-25 19:02:10.781  2143  2143 I native_eup: found native exception upload!
+03-25 19:02:10.781  2143  2143 I native_eup: found native exception handler!
+03-25 19:02:10.781  2143  2143 I native_eup: regist handler start procType 1 , level 23 , tombDir:/data/user/0/com.tencent.mobileqq/app_tombs
+03-25 19:02:10.781  2143  2143 I native_eup: registSignal start
+03-25 19:02:10.782  2143  2143 I native_eup: registSignal end
+03-25 19:02:10.782  2143  2143 I native_eup: regist handler end
+03-25 19:02:10.782  2143  2143 I native_eup: Java_com_tencent_feedback_eup_jni_NativeExceptionUpload_registNativeExceptionHandler end
+03-25 19:02:10.782  2143  2143 I native_eup: NativeRQDVersion:testbuildnum
+03-25 19:02:10.782  2143  2143 I native_eup: Java_com_tencent_feedback_eup_jni_NativeExceptionUpload_registNativeExceptionHandler2 start
+03-25 19:02:10.782  2143  2143 I native_eup: JARJNIVERSION:0
+03-25 19:02:10.782  2143  2143 I native_eup: found native exception upload!
+03-25 19:02:10.782  2143  2143 I native_eup: found native exception handler!
+03-25 19:02:10.782  2143  2143 I native_eup: regist handler start procType 1 , level 23 , tombDir:/data/user/0/com.tencent.mobileqq/app_tombs
+03-25 19:02:10.782  2143  2143 I native_eup: registSignal start
+03-25 19:02:10.782  2143  2143 I native_eup: registSignal end
+03-25 19:02:10.782  2143  2143 I native_eup: regist handler end
+03-25 19:02:10.782  2143  2143 I native_eup: Java_com_tencent_feedback_eup_jni_NativeExceptionUpload_registNativeExceptionHandler end
+03-25 19:02:10.782  2143  2143 I native_eup: NativeRQDVersion:testbuildnum
+03-25 19:02:10.793  2143  2143 D AutoMonitor: MTA, cost=10 results: true
+03-25 19:02:10.793  2143  2165 D MSF.D.ProxyNew: registerMsfService processName=com.tencent.mobileqq:qzone callback=com.tencent.mobileqq.msf.sdk.k@740868
+03-25 19:02:10.797  2143  2165 D MobileQQ: createNewRuntime, canAutoOK: true
+03-25 19:02:10.799  2143  2165 I mqq     : [AppRuntime]QZoneAppInterface (*6045) onCreate,savedInstanceState=null
+03-25 19:02:10.802  2143  2165 I QZLog   : QZoneAppInterface onCreate isFirst:true,theadid=16107
+03-25 19:02:10.813  2143  2143 W ResourceType: For resource 0x7f0c0486, entry index(1158) is beyond type entryCount(1158)
+03-25 19:02:10.814  2143  2143 W ResourceType: Failure getting entry for 0x7f0c0486 (t=11 e=1158) (error -75)
+03-25 19:02:10.848  2143  2143 D MSF.D.RemoteServiceProxy: onServiceConnected service:ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.msf.service.MsfService}
+03-25 19:02:10.861  2143  2183 D MSF.D.ProxyNew: registerMsfService processName=com.tencent.mobileqq:qzone callback=com.tencent.mobileqq.msf.sdk.k@740868
+03-25 19:02:10.865  4529  9477 D MSF.S.ReqHandler: handleMsfRequest registerMsfService
+03-25 19:02:10.865  4529  9477 I MSF.S.AppProcessManager: onRegisterApp process=com.tencent.mobileqq:qzone processBootName= appid=537050236 callback=51b073a
+03-25 19:02:10.876  4529  4540 D MSF.S.ReqHandler: handleMsfRequest registerMsfService
+03-25 19:02:10.876  4529  4540 I MSF.S.AppProcessManager: onRegisterApp process=com.tencent.mobileqq:qzone processBootName= appid=537050236 callback=991efeb
+03-25 19:02:10.907  2143  2167 D BindService: bind service bindSucc=true conned=true cost=356
+03-25 19:02:10.907  2143  2167 I BindService: control=11 conned=true start=[1,1490439730551] bindSucc=[1,1490439730907] bindFail=[0,0] unbind=[0,0] stop=[0,1490439730545]
+03-25 19:02:10.969  2143  2165 I VIDEO_LOG/FeedVideoEnv: michal9 FeedVideoEnv init! pid=2143
+03-25 19:02:11.000 12575  2187 E ExtMediaPlayer-JNI: env->IsInstanceOf fails
+03-25 19:02:11.000 12575  2187 E MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+03-25 19:02:11.000 12575  2187 E ExtMediaPlayer-JNI: env->IsInstanceOf fails
+03-25 19:02:11.000 12575  2187 E MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+03-25 19:02:11.006  2143  2165 I VIDEO_LOG/FeedVideoEnv: h265debug cfg h265ReportKeyVersion=2
+03-25 19:02:11.036  2143  2165 W ResourceType: No package identifier when getting value for resource number 0x00000000
+03-25 19:02:11.036  2143  2165 W ResourceType: No package identifier when getting value for resource number 0x00000000
+03-25 19:02:11.036  2143  2165 W ResourceType: No package identifier when getting value for resource number 0x00000000
+03-25 19:02:11.040  2143  2165 W ResourceType: No package identifier when getting value for resource number 0x00000000
+03-25 19:02:11.040  2143  2165 W ResourceType: No package identifier when getting value for resource number 0x00000000
+03-25 19:02:11.040  2143  2165 W ResourceType: No package identifier when getting value for resource number 0x00000000
+03-25 19:02:11.040  2143  2165 W ResourceType: No package identifier when getting value for resource number 0x00000000
+03-25 19:02:11.041  2143  2143 D MobileQQ: dispatchAE S onAccountChanged
+03-25 19:02:11.043  2143  2165 D mqq     : doInit finished
+03-25 19:02:11.068  2143  2162 I upload2: ServiceImpl: init! ms:1 oldInitialization:false
+03-25 19:02:11.106  2143  2188 E art     : No implementation found for int oicq.wlogin_sdk.tools.EcdhCrypt.GenECDHKeyEx(java.lang.String, java.lang.String, java.lang.String) (tried Java_oicq_wlogin_1sdk_tools_EcdhCrypt_GenECDHKeyEx and Java_oicq_wlogin_1sdk_tools_EcdhCrypt_GenECDHKeyEx__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2)
+03-25 19:02:11.128  2143  2162 I VIDEO_LOG/QZoneVideoLoader: configVideoSDK
+03-25 19:02:11.167  2143  2188 D TicketManager: set alter tickets for *6045
+03-25 19:02:11.193  2143  2162 I VIDEO_LOG/VideoProxy: cache provider is local 
+03-25 19:02:11.193  2143  2162 I VIDEO_LOG/VideoProxy: cache dir is:/storage/emulated/0/Android/data/com.tencent.mobileqq/qzone/video_cache/local
+03-25 19:02:11.197  4611  4767 I XiaomiFirewall: firewall pkgName:com.tencent.mobileqq, result:0x0
+03-25 19:02:11.199  2143  2152 I art     : Background sticky concurrent mark sweep GC freed 51341(6MB) AllocSpace objects, 16(320KB) LOS objects, 28% free, 16MB/22MB, paused 10.857ms total 54.408ms
+03-25 19:02:11.201  2143  2162 I VIDEO_LOG/VideoProxy: proxy start success
+03-25 19:02:11.209  2143  2162 D @httpproxy_test: setUtilsObject
+03-25 19:02:11.209  2143  2162 I VIDEO_LOG/TcVideoDownload: cache data dir = /storage/emulated/0/Android/data/com.tencent.mobileqq/qzone/video_cache/local
+03-25 19:02:11.217  2143  2162 D @httpproxy_test: init
+03-25 19:02:11.217  2143  2162 I VIDEO_LOG/TV_Httpproxy: TVDownloadProxy Version:V1.0.188.0004
+03-25 19:02:11.221  2143  2162 I VIDEO_LOG/TV_Httpproxy: #LOG_INFO 2017-03-25 19:02:11.222[DownloadManager.cpp:85] [TVDownloadProxy_Init]dmInit dataDir:/storage/emulated/0/Android/data/com.tencent.mobileqq/qzone/video_cache/local, configStr:{"AdjustHttpBufferTimeFrameByMin":"20:00,24:00,40,20,6,0","LimitHttpBufferPlayTime":3,"LinkKeepAlive":1,"MaxBufferedLimitOnePlay":2,"MaxLimitHttpBufferTime":8,"MinLogLevel":0}, current proxy version:TVHttpproxy.1.0.0.0025
+03-25 19:02:11.223  2143  2162 I VIDEO_LOG/TV_Httpproxy: #LOG_INFO 2017-03-25 19:02:11.224[DownloadManager.cpp:190] [TVDownloadProxy_Init]dmInit ok. LocalServer port:12698, init counter:1
+03-25 19:02:11.223  2143  2162 I VIDEO_LOG/TcVideoDownload: init result = 0
+03-25 19:02:11.224  2143  2162 I VIDEO_LOG/TV_Httpproxy: #LOG_INFO 2017-03-25 19:02:11.224[DownloadManager.cpp:765] [TVDownloadProxy_Set]dmSetMaxStorageSize maxSize_Byte:536870912B
+03-25 19:02:11.224  2143  2162 I VIDEO_LOG/TV_Httpproxy: #LOG_INFO 2017-03-25 19:02:11.225[DownloadManager.cpp:715] [TVDownloadProxy_Set]dmSetMaxMemorySize maxSize_Byte:10485760B
+03-25 19:02:11.224  2143  2162 I VIDEO_LOG/TV_Httpproxy: #LOG_INFO 2017-03-25 19:02:11.225[DownloadManager.cpp:1425] [TVDownloadProxy_Set]SetHttpLowSpeedParams:maxLowSpeedSeconds:8,minSpeedFactorBaseBitRate:20
+03-25 19:02:11.225  2143  2162 I VIDEO_LOG/TcVideoDownload: setNetworkState isWifiOn= true
+03-25 19:02:11.225  2143  2162 D @httpproxy_test: setNetWorkState1
+03-25 19:02:11.225  2143  2162 I VIDEO_LOG/TV_Httpproxy: #LOG_INFO 2017-03-25 19:02:11.225[DownloadManager.cpp:1289] [TVDownloadProxy_Set]NetState change:WifiOn(1)
+03-25 19:02:11.225  2143  2162 I VIDEO_LOG/TV_Httpproxy: #LOG_INFO 2017-03-25 19:02:11.225[DownloadManager.cpp:814] [TVDownloadProxy_Storage]dmResumeStorageIO counter:1
+03-25 19:02:11.228  2143  2199 I VIDEO_LOG/TV_Httpproxy:  第1 次CGI请求:https://sec.video.qq.com/p/wxconf/getmfomat?platform=aphone&appver=V1.0.188.0004&player_channel_id=188&otype=json&ipflag=1&guid=123
+03-25 19:02:11.228  2143  2162 I AdManager: init
+03-25 19:02:11.229  2143  2162 I AdCookie: initCookie
+03-25 19:02:11.230  2143  2199 I DpmTcmClient: RegisterTcmMonitor from: com.android.okhttp.TcmIdleTimerMonitor
+03-25 19:02:11.270  2143  2186 W database: dbOptiSync=1
+03-25 19:02:11.275  2143  2186 I DbCacheDatabase: [DB]1ed8a04d259b01a8d4976ce4faac4ef7  attach sessionId:146149607mAttachCount:1
+03-25 19:02:11.286  2143  2199 I VIDEO_LOG/TV_Httpproxy: 【connect】连接时间：58返回数据：{   "guid" : "123",   "httpproxy_config" : {      "AdjustHttpBufferTimeFrameByMin" : "20:00,24:00,40,20,6,0",      "LimitHttpBufferPlayTime" : 3,      "LinkKeepAlive" : 1,      "MaxBufferedLimitOnePlay" : 2,      "MaxLimitHttpBufferTime" : 8,      "MinLogLevel" : 0   },   "need_take_sample" : 0,   "player_confid" : 309,   "positon" : {      "city" : "邵阳",      "country" : "cn",      "isp" : "电信",      "province" : "湖南"   }}
+03-25 19:02:11.295  2143  2186 E QZLog   : PRAGMA synchronous=OFF executed
+03-25 19:02:11.300  2143  2186 I PublishQueue: QzonePublishQueue.onRestore taskList size:0
+03-25 19:02:11.341  4529  5094 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-25 19:02:11.341  4529  5094 W beacon  : onUserAction return false, because eventName:[msf.sdk.event_bindCost] is not allowed in server strategy!
+03-25 19:02:11.343  4529  5094 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-25 19:02:11.344  4529  5094 W beacon  : onUserAction return false, because eventName:[dim.Msf.AppConnectFail] is not allowed in server strategy!
+03-25 19:02:11.346  4529  5094 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-25 19:02:11.346  4529  5094 W beacon  : onUserAction return false, because eventName:[dim.Msf.AppConnectFail] is not allowed in server strategy!
+03-25 19:02:11.349  4529  5094 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-25 19:02:11.350  4529  5094 W beacon  : onUserAction return false, because eventName:[msf.sdk.event_sendToServiceCost] is not allowed in server strategy!
+03-25 19:02:11.352  4529  5094 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-25 19:02:11.353  4529  5094 W beacon  : onUserAction return false, because eventName:[msf.sdk.event_sendToServiceCost] is not allowed in server strategy!
+03-25 19:02:11.746  3725  3725 I PowerUtils: Device name:helium
+03-25 19:02:11.749  3725  3725 I PowerUtils: Device name:helium
+03-25 19:02:11.752  3725  3725 W BatteryChargeTimeHelper: Use max, leftChargeTime 3021774 maxChargeTime 1936000
+03-25 19:02:11.772  1296  1296 V NotificationService: pkg=com.miui.securitycenter canInterrupt=false intercept=true
+03-25 19:02:11.774  3725  3725 I PowerSaveService: Update connected notification, charging true
+03-25 19:02:11.777  3324 18809 D StatusBar: onNotificationPosted:  Key: 0|com.miui.securitycenter|2131362604|null|1000 GroupKey: 0|com.miui.securitycenter|2131362604|null|1000 Connected: true
+03-25 19:02:11.777  3324  3324 D StatusBar:  GroupChild: false  GroupsContainsKey: false  IsUpdate: true IsGroupSummary: false hasIcon: true
+03-25 19:02:11.778  3324  3324 D PhoneStatusBar: updateNotification pkg=com.miui.securitycenter;id=2131362604
+03-25 19:02:11.807  3324  3324 W ProgressBarDelegate: Unknown Drawable subclass, src=android.graphics.drawable.ScaleDrawable@64606dd
+03-25 19:02:11.807  3324  3324 W ProgressBarDelegate: Unknown Drawable subclass, src=android.graphics.drawable.ScaleDrawable@dd67252
+03-25 19:02:12.404  3725  3725 I PowerUtils: Device name:helium
+03-25 19:02:12.407  3725  3725 I PowerUtils: Device name:helium
+03-25 19:02:12.411  3725  3725 W BatteryChargeTimeHelper: Use max, leftChargeTime 3021774 maxChargeTime 1936000
+03-25 19:02:12.421  1296  1296 V NotificationService: pkg=com.miui.securitycenter canInterrupt=false intercept=true
+03-25 19:02:12.422  3725  3725 I PowerSaveService: Update connected notification, charging true
+03-25 19:02:12.425  3324 20408 D StatusBar: onNotificationPosted:  Key: 0|com.miui.securitycenter|2131362604|null|1000 GroupKey: 0|com.miui.securitycenter|2131362604|null|1000 Connected: true
+03-25 19:02:12.425  3324  3324 D StatusBar:  GroupChild: false  GroupsContainsKey: false  IsUpdate: true IsGroupSummary: false hasIcon: true
+03-25 19:02:12.426  3324  3324 D PhoneStatusBar: updateNotification pkg=com.miui.securitycenter;id=2131362604
+03-25 19:02:12.734 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:02:13.695  2143  2172 W beacon  : startQuery: query times or query success times arrive max, return!
+03-25 19:02:14.085  2143  2162 D InitHook: NOT AVA
+03-25 19:02:14.284  1009  1009 I MSM-irqbalance: Decided to move IRQ178 from CPU2 to CPU0
+03-25 19:02:14.908  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :0signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 20 -101 -8 148 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:02:15.453  2143  2162 D HotPatchTool: injectPatchDex clear start fail count.
+03-25 19:02:15.458  2143  2162 D mqq     : a1.getUin() = *1164;key.time = 1489031607618, isLogined=true
+03-25 19:02:15.458  2143  2162 D mqq     : a2.getUin() = *6045;key.time = 1490143756993, isLogined=true
+03-25 19:02:15.458  2143  2162 D StatisticCollector: reportDexPatch curUin=793466045, event=actNvwaInstall, result=500, patchId=patch1_6.7.0.496.jar
+03-25 19:02:15.752 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:02:16.217  4649  4803 D PowerCheckerService: rawUptime = 189565375000 us
+03-25 19:02:16.217  4649  4803 D PowerCheckerService: rawRealtime = 316610982000 us
+03-25 19:02:16.217  4649  4803 D PowerCheckerService: batteryUptime = 14265282000 us
+03-25 19:02:16.217  4649  4803 D PowerCheckerService: batteryRealtime = 24437000000 us
+03-25 19:02:16.217  4649  4803 D PowerCheckerService: whichBatteryUptime = 48000 us
+03-25 19:02:16.217  4649  4803 D PowerCheckerService: whichBatteryRealtime = 47000 us
+03-25 19:02:16.217  4649  4803 W PowerCheckerService: Time on battery is too short since last unlugged, skip this check
+03-25 19:02:18.770 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:02:19.284  1009  1009 I MSM-irqbalance: Decided to move IRQ166 from CPU2 to CPU0
+03-25 19:02:21.788 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:02:24.284  1009  1009 I MSM-irqbalance: Decided to move IRQ104 from CPU2 to CPU0
+03-25 19:02:24.330  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :0signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 20 -100 -7 174 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:02:24.805 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:02:26.060  2143  2162 I QZLog   : clear crash count with no crash
+03-25 19:02:26.575  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :0signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 22 -100 -11 68 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:02:27.822 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:02:28.562  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :0signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 20 -100 -8 148 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:02:29.284  1009  1009 I MSM-irqbalance: Decided to move IRQ321 from CPU2 to CPU0
+03-25 19:02:30.838 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:02:31.390  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :0signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 20 -100 -7 166 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:02:33.857 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:02:34.284  1009  1009 I MSM-irqbalance: Decided to move IRQ155 from CPU2 to CPU0
+03-25 19:02:34.806  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :0signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 20 -100 -8 80 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:02:36.876 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:02:37.978  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :0signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 20 -100 -7 170 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:02:39.894 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:02:40.650  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :0signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 20 -100 -8 150 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:02:40.773  2143  2180 I native_eup: Java_com_tencent_feedback_eup_jni_NativeExceptionUpload_registNativeExceptionHandler2 start
+03-25 19:02:40.774  2143  2180 I native_eup: JARJNIVERSION:1
+03-25 19:02:40.774  2143  2180 I native_eup: found native exception upload!
+03-25 19:02:40.774  2143  2180 I native_eup: found native exception handler!
+03-25 19:02:40.774  2143  2180 I native_eup: regist handler start procType 1 , level 23 , tombDir:/data/user/0/com.tencent.mobileqq/app_tombs
+03-25 19:02:40.774  2143  2180 I native_eup: registSignal start
+03-25 19:02:40.774  2143  2180 I native_eup: registSignal end
+03-25 19:02:40.774  2143  2180 I native_eup: regist handler end
+03-25 19:02:40.774  2143  2180 I native_eup: Java_com_tencent_feedback_eup_jni_NativeExceptionUpload_registNativeExceptionHandler end
+03-25 19:02:40.774  2143  2180 I native_eup: NativeRQDVersion:testbuildnum
+03-25 19:02:40.774  2143  2180 I native_eup: Java_com_tencent_feedback_eup_jni_NativeExceptionUpload_registNativeExceptionHandler2 start
+03-25 19:02:40.774  2143  2180 I native_eup: JARJNIVERSION:0
+03-25 19:02:40.774  2143  2180 I native_eup: found native exception upload!
+03-25 19:02:40.774  2143  2180 I native_eup: found native exception handler!
+03-25 19:02:40.774  2143  2180 I native_eup: regist handler start procType 1 , level 23 , tombDir:/data/user/0/com.tencent.mobileqq/app_tombs
+03-25 19:02:40.774  2143  2180 I native_eup: registSignal start
+03-25 19:02:40.774  2143  2180 I native_eup: registSignal end
+03-25 19:02:40.774  2143  2180 I native_eup: regist handler end
+03-25 19:02:40.774  2143  2180 I native_eup: Java_com_tencent_feedback_eup_jni_NativeExceptionUpload_registNativeExceptionHandler end
+03-25 19:02:40.774  2143  2180 I native_eup: NativeRQDVersion:testbuildnum
+03-25 19:02:42.911 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:02:45.927 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:02:46.020   822   833 V MiCloudSyncStateObserver: sync status observer: 2
+03-25 19:02:46.020   822   833 V MiCloudSyncStateObserver: notify change
+03-25 19:02:46.024   822   822 V MiCloudSyncStateService: onEventMainThread: type: 1
+03-25 19:02:46.030   822   832 V MiCloudSyncStateObserver: sync status observer: 2
+03-25 19:02:46.030   822   832 V MiCloudSyncStateObserver: notify change
+03-25 19:02:46.031   822   833 V MiCloudSyncStateObserver: sync status observer: 4
+03-25 19:02:46.031   822   833 V MiCloudSyncStateObserver: notify change
+03-25 19:02:46.035   822   822 V MiCloudSyncStateService: onEventMainThread: type: 1
+03-25 19:02:46.036   822   822 V MiCloudSyncStateService: Sync state is being checked.
+03-25 19:02:46.036   822   822 V MiCloudSyncStateService: onEventMainThread: type: 1
+03-25 19:02:46.036   822   822 V MiCloudSyncStateService: Sync state is being checked.
+03-25 19:02:46.039   822  2227 V MiCloudSyncStateTask: Authority: com.android.contacts, DirtyCount: 0, DirtyCountDependWifi: 0, SyncAutomatically: true, IsSyncable: true, SyncState: SYNCED.
+03-25 19:02:46.043   822  2227 V MiCloudSyncStateTask: Authority: wifi, DirtyCount: 0, DirtyCountDependWifi: 0, SyncAutomatically: true, IsSyncable: true, SyncState: SYNCED.
+03-25 19:02:46.043  1296  1501 I AutoStartManagerService: MIUILOG- Reject service :Intent { act=android.content.SyncAdapter cmp=com.tencent.qqpim/.apps.syncaccount.SyncService (has extras) } userId : 0 uid : 10130
+03-25 19:02:46.043  1296  1501 E SyncManager: Bind attempt failed - target: ComponentInfo{com.tencent.qqpim/com.tencent.qqpim.apps.syncaccount.SyncService}
+03-25 19:02:46.043   822   832 V MiCloudSyncStateObserver: sync status observer: 4
+03-25 19:02:46.044   822   832 V MiCloudSyncStateObserver: notify change
+03-25 19:02:46.044   822   822 V MiCloudSyncStateService: onEventMainThread: type: 1
+03-25 19:02:46.044   822   822 V MiCloudSyncStateService: Sync state is being checked.
+03-25 19:02:46.045   822  2227 V MiCloudSyncStateTask: Authority: com.miui.gallery.cloud.provider, DirtyCount: 0, DirtyCountDependWifi: 0, SyncAutomatically: false, IsSyncable: true, SyncState: SYNCED.
+03-25 19:02:46.052   822  2227 V MiCloudSyncStateTask: Authority: notes, DirtyCount: 0, DirtyCountDependWifi: 0, SyncAutomatically: true, IsSyncable: true, SyncState: SYNCED.
+03-25 19:02:46.072   822  2227 V MiCloudSyncStateTask: Authority: antispam, DirtyCount: 0, DirtyCountDependWifi: 0, SyncAutomatically: true, IsSyncable: true, SyncState: SYNCED.
+03-25 19:02:46.089  1296  1296 V NotificationService: pkg=com.xiaomi.xmsf canInterrupt=false intercept=true
+03-25 19:02:46.090   822  2227 V MiCloudSyncStateTask: Authority: records, DirtyCount: 0, DirtyCountDependWifi: 0, SyncAutomatically: true, IsSyncable: true, SyncState: SYNCED.
+03-25 19:02:46.090  3485  3485 V SyncNotificationHandler: sendSyncingBroadcast: true
+03-25 19:02:46.096  3324  7138 D StatusBar: onNotificationPosted:  Key: 0|com.xiaomi.xmsf|8|null|10082 GroupKey: 0|com.xiaomi.xmsf|8|null|10082 Connected: true
+03-25 19:02:46.096  3324  3324 D StatusBar:  GroupChild: false  GroupsContainsKey: false  IsUpdate: false IsGroupSummary: false hasIcon: true
+03-25 19:02:46.097  4649  4781 I InfoCollectManager: ACTION:android.intent.action.SYNC_STATE_CHANGED
+03-25 19:02:46.097  3324  3324 D PhoneStatusBar: addNotification pkg=com.xiaomi.xmsf;basepkg=com.xiaomi.xmsf;id=8
+03-25 19:02:46.097  4649  4781 I InfoCollectManager: mIsSyncActive:true
+03-25 19:02:46.108  1296  3720 I ActivityManager: Start proc 2228:com.miui.gallery/u0a19 for content provider com.miui.gallery/.provider.GalleryProvider
+03-25 19:02:46.109  4071  4381 D WtProcessController: onAMProcStart callback
+03-25 19:02:46.111   822  2227 V MiCloudSyncStateTask: Authority: sms, DirtyCount: 0, DirtyCountDependWifi: 0, SyncAutomatically: true, IsSyncable: true, SyncState: SYNCED.
+03-25 19:02:46.127  3324  3324 W ProgressBarDelegate: Unknown Drawable subclass, src=android.graphics.drawable.ScaleDrawable@bb1ae0
+03-25 19:02:46.128  3324  3324 W ProgressBarDelegate: Unknown Drawable subclass, src=android.graphics.drawable.ScaleDrawable@b1ae199
+03-25 19:02:46.128   822  2227 V MiCloudSyncStateTask: Authority: call_log, DirtyCount: 0, DirtyCountDependWifi: 0, SyncAutomatically: true, IsSyncable: true, SyncState: SYNCED.
+03-25 19:02:46.132  3324  3324 W ResourceType: No known package when getting value for resource number 0xffffffff
+03-25 19:02:46.132   822  2227 V MiCloudSyncStateTask: Authority: com.miui.browser, DirtyCount: 0, DirtyCountDependWifi: 0, SyncAutomatically: true, IsSyncable: true, SyncState: SYNCED.
+03-25 19:02:46.133   822  2227 V MiCloudSyncStateTask: Authority: com.miui.player, DirtyCount: 0, DirtyCountDependWifi: 0, SyncAutomatically: false, IsSyncable: true, SyncState: SYNCED.
+03-25 19:02:46.137   822  2227 V MiCloudSyncStateTask: Authority: com.android.calendar, DirtyCount: 0, DirtyCountDependWifi: 0, SyncAutomatically: true, IsSyncable: true, SyncState: SYNCED.
+03-25 19:02:46.144  2228  2228 D TidaProvider: TidaProvider()
+03-25 19:02:46.164  3324  3324 E Icon    : Unable to load resource 0xffffffff from pkg=com.xiaomi.xmsf
+03-25 19:02:46.164  3324  3324 E Icon    : android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+03-25 19:02:46.164  3324  3324 E Icon    : 	at android.content.res.Resources.getValue(Resources.java:1369)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at android.content.res.MiuiResources.getValue(MiuiResources.java:145)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at android.content.res.Resources.getDrawable(Resources.java:822)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at android.graphics.drawable.Icon.loadDrawableInner(Icon.java:313)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at android.graphics.drawable.Icon.loadDrawable(Icon.java:269)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at android.widget.ImageView.setImageIcon(ImageView.java:498)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at java.lang.reflect.Method.invoke(Native Method)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at android.widget.RemoteViews$ReflectionAction.apply(RemoteViews.java:1296)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at android.widget.RemoteViews.performApply(RemoteViews.java:2804)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at android.widget.RemoteViews.apply(RemoteViews.java:2764)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at com.android.systemui.statusbar.BaseStatusBar.inflateViews(BaseStatusBar.java:630)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at com.android.systemui.statusbar.BaseStatusBar.addNotificationViews(BaseStatusBar.java:1007)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at com.android.systemui.statusbar.phone.PhoneStatusBar.addNotification(PhoneStatusBar.java:1819)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at com.android.systemui.statusbar.CommandQueue$H.handleMessage(CommandQueue.java:432)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at android.os.Looper.loop(Looper.java:148)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at android.app.ActivityThread.main(ActivityThread.java:5442)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at java.lang.reflect.Method.invoke(Native Method)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:738)
+03-25 19:02:46.164  3324  3324 E Icon    : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:628)
+03-25 19:02:46.213   822   822 V MiCloudSyncStateService: onEventMainThread: type: 2
+03-25 19:02:46.213   822   822 V MiCloudSyncStateProviderHelper: REMOVED: setSyncState: SYNCED_WITH_OFF
+03-25 19:02:46.213   822   822 V MiCloudSyncStateStat: statSyncState: SYNCED_WITH_OFF
+03-25 19:02:46.213   822   822 D StatHelper: recordCountEvent(): category:category_sync, key:key_sync_state_result, params:{param_sync_state=SYNCED_WITH_OFF}
+03-25 19:02:46.219   822   822 V MiCloudNotificationHelper: cancelNotification: name: MiCloudAlertMasterNotification
+03-25 19:02:46.219   822   822 V MiCloudNotificationHelper: cancelNotification: name: MiCloudAlertSubNotification
+03-25 19:02:46.219   822   822 V MiCloudNotificationHelper: cancelNotification: name: MiCloudMasterDependWifiNotification
+03-25 19:02:46.220   822   822 V MiCloudNotificationHelper: cancelNotification: name: MiCloudDependWifiNotification
+03-25 19:02:46.220   822   822 V MiCloudNotificationHelper: cancelNotification: name: MiCloudMasterDependWifiNotification
+03-25 19:02:46.220   822   822 V MiCloudNotificationHelper: cancelNotification: name: MiCloudBatteryLowNotification
+03-25 19:02:46.220   822   822 V MiCloudNotificationHelper: cancelNotification: name: MiCloudMemoryLowNotification
+03-25 19:02:46.220   822   822 V MiCloudNotificationHelper: cancelNotification: name: MiCloudMultiUserErrorNotification
+03-25 19:02:46.220   822   822 V MiCloudSyncStateNotificationHelper: pendingSyncStateNotification
+03-25 19:02:46.220   822   822 V MiCloudSyncStateNotificationHelper: SyncState: SYNCED_WITH_OFF
+03-25 19:02:46.220   822   822 V MiCloudSyncProgressHelper: setShowSyncProgress: updateSyncProgress
+03-25 19:02:46.220   822   822 V MiCloudSyncProgressHelper: Did not set show progress
+03-25 19:02:46.220   822   822 V MiCloudSyncStateService: callbackSyncState: SYNCED_WITH_OFF
+03-25 19:02:46.220   822   822 V MiCloudSyncStateService: callbackSyncState: 0
+03-25 19:02:46.220   822   822 V MiCloudSyncStateObserver: notify change
+03-25 19:02:46.220   822   822 V MiCloudSyncStateService: onEventMainThread: type: 1
+03-25 19:02:46.220   822   822 V MiCloudSyncStateService: Sync state is being checked.
+03-25 19:02:46.299  2228  2228 D miuisdk : current sdk level is 10
+03-25 19:02:46.304  2228  2228 I         : ARTPROXY OFFSET: method_entry_offset = 48
+03-25 19:02:46.304  2228  2228 I         : ARTPROXY OFFSET: method_interpreter_entry_offset = 32
+03-25 19:02:46.304  2228  2228 I         : ARTPROXY OFFSET: managed_stack_size = 24
+03-25 19:02:46.304  2228  2228 I         : ARTPROXY OFFSET: thread_deliver_exception_entry_offset = 1088
+03-25 19:02:46.304  2228  2228 I         : ARTPROXY OFFSET: thread_exception_offset = 136
+03-25 19:02:46.304  2228  2228 I         : ARTPROXY OFFSET: method_code_size_offset = 4
+03-25 19:02:46.344  3324  3324 W SystemUI.toggleContainer: view is null:null null null
+03-25 19:02:46.633  3485  3485 V SyncNotificationHandler: result:false
+03-25 19:02:46.637  3485  3485 V SyncNotificationHandler: sendSyncingBroadcast: false
+03-25 19:02:46.640  3324  4549 D StatusBar: onNotificationRemoved:  Key: 0|com.xiaomi.xmsf|8|null|10082
+03-25 19:02:46.641  4649  4781 I InfoCollectManager: ACTION:android.intent.action.SYNC_STATE_CHANGED
+03-25 19:02:46.641  4649  4781 I InfoCollectManager: mIsSyncActive:false
+03-25 19:02:46.643  1296  4136 I ActivityManager: Killing 1222:com.android.providers.calendar/u0a4 (adj 15): empty #17
+03-25 19:02:46.643  3324  3324 D PhoneStatusBar: removeNotification key=android.os.Binder@cd5cd4f keyCode=215338319 old=StatusBarNotification(pkg=com.xiaomi.xmsf user=UserHandle{0} id=8 tag=null score=0 key=0|com.xiaomi.xmsf|8|null|10082: Notification(pri=0 contentView=com.xiaomi.xmsf/0x1090091 vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE))
+03-25 19:02:46.662  1296  3401 D ActivityManagerInjector: com.android.providers.calendar is killed by AMS with adj 15 ,do not allow restart
+03-25 19:02:46.662  1296  3401 D ActivityManager: cleanUpApplicationRecord -- 1222
+03-25 19:02:46.975  2228  2251 I miuisdk : loading module: com.miui.gallery.extra.videoeditor.v1000
+03-25 19:02:47.375  4071  4098 W CloudControlInfo: Size of HttpRequest parcel:628
+03-25 19:02:47.430  1881  2253 W ActivityThread: ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+03-25 19:02:47.455  4611  4767 I XiaomiFirewall: firewall pkgName:com.miui.personalassistant, result:0x0
+03-25 19:02:47.671  2228  2251 D miuisdk : process com.miui.gallery.extra.videoeditor.v1000 successful
+03-25 19:02:47.671  2228  2251 D miuisdk : process modules finished
+03-25 19:02:48.947 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+03-25 19:02:49.284  1009  1009 I MSM-irqbalance: Decided to move IRQ177 from CPU0 to CPU2
+03-25 19:02:50.217  3324  3324 D StatusBar.NetworkController: onSignalStrengthsChanged received on slotId :0signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 22 -100 -11 102 2147483647 2147483647 gsm|lte level=5 cdmdlevel=0 evdolevel=0
+03-25 19:02:51.965 28615 28615 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
