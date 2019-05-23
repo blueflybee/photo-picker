@@ -83,6 +83,8 @@ public abstract class SelectableAdapter<VH extends RecyclerView.ViewHolder>
 
 
   public List<Photo> getCurrentPhotos() {
+    System.out.println("photoDirectories = " + photoDirectories);
+    System.out.println("currentDirectoryIndex = " + currentDirectoryIndex);
     return photoDirectories.get(currentDirectoryIndex).getPhotos();
   }
 

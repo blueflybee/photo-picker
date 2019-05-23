@@ -79,6 +79,7 @@ public class PhotoGridAdapter extends SelectableAdapter<PhotoGridAdapter.PhotoVi
 
 
   @Override public PhotoViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    System.out.println("PhotoGridAdapter.onCreateViewHolder");
     //View itemView = inflater.inflate(R.layout.__picker_item_photo, parent, false);
     PhotoViewHolder holder = PhotoPickUtils.holderGenerator.newGridViewHolder(mContext);//new PhotoViewHolder(itemView);
     //parent.addView(holder.itemView);
@@ -100,10 +101,11 @@ public class PhotoGridAdapter extends SelectableAdapter<PhotoGridAdapter.PhotoVi
 
 
   @Override public void onBindViewHolder(final PhotoViewHolder holder, int position) {
-
+    System.out.println("PhotoGridAdapter.onBindViewHolder");
     if (getItemViewType(position) == ITEM_TYPE_PHOTO) {
 
       List<Photo> photos = getCurrentPhotos();
+      System.out.println("photos = " + photos);
       final Photo photo;
 
       if (showCamera()) {
@@ -161,6 +163,7 @@ public class PhotoGridAdapter extends SelectableAdapter<PhotoGridAdapter.PhotoVi
     int photosCount =
         photoDirectories.size() == 0 ? 0 : getCurrentPhotos().size();
     if (showCamera()) {
+      System.out.println("photosCount = " + photosCount);
       return photosCount + 1;
     }
     return photosCount;
